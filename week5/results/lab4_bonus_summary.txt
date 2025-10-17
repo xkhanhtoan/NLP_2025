@@ -1,0 +1,16 @@
+Vocabulary size: 1231
+Vector size: 200
+Window: 7
+Epochs: 15
+Training sentences: 1990
+
+Sample vector for 'king':
+[-0.01398408 -0.05377019  0.10552991  0.07408691 -0.02150913 -0.02679242
+ -0.08502107  0.14014806 -0.06646894  0.12908548]
+
+Top 5 similar to 'king':
+  terrorist  -> 0.9993
+  had        -> 0.9993
+  cruise     -> 0.9993
+  public     -> 0.9993
+  org        -> 0.9993
