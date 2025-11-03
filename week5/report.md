@@ -143,7 +143,7 @@ Chưa thực hiện do ưu tiên phần huấn luyện.
   ✅ Document embedding
   ✅ Word2Vec training
   ⚠️ Spark training (lỗi môi trường)
-  ⏸ Visualization chưa thực hiện
+  ⏸ Visualization chưa thực hiện 
 
 **Tổng tiến độ:** ~80% lab hoàn thành, logic đúng, code chạy ổn định.
 Người thực hiện hiểu rõ cách sử dụng, huấn luyện và so sánh Word Embeddings.
