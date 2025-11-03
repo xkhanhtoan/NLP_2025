@@ -1,4 +1,4 @@
-# 🧾t LAB 4: WORD EMBEDDINGS
+# 🧾LAB 4: WORD EMBEDDINGS
 
 ## I. Giới thiệu
 
