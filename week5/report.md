@@ -1,5 +1,6 @@
 # 🧾LAB 4: WORD EMBEDDINGS
 
+ 
 ## I. Giới thiệu
 
 Lab 4 tìm hiểu về **Word Embeddings** – cách biểu diễn từ thành vector để mô hình học máy hiểu được ngữ nghĩa.
