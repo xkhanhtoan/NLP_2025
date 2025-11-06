@@ -116,12 +116,9 @@ Trích xuất từ log `lab17_metrics_word2vec_lr.log`:
 ---
 
 ## 5. Khó khăn và Giải pháp
-
-| Vấn đề | Giải pháp |
-|---------|------------|
-| Dataset không có nhãn | Tạo label giả để demo LR |
-| Hash collision khi giảm numFeatures | Giữ mức 20000 cho pipeline chính |
-| Thời gian huấn luyện Word2Vec dài | Giảm iter và vectorSize |
+- Data set không có nhãn
+- Thời gian huấn luyện dài
+- Cài đặt xung đột giữa các phiên bản :((( 
 
 ---
 
