@@ -1,4 +1,4 @@
-# 🧾LAB 4: WORD EMBEDDINGS
+# LAB 3 - PART2: WORD EMBEDDINGS
 
  
 ## I. Giới thiệu
@@ -44,7 +44,7 @@ python -m test.lab4_spark_word2vec_demo
 
 ## III. Thực hiện
 
-### ✅ Task 1: Sử dụng mô hình có sẵn (Pretrained GloVe)
+###  Task 1: Sử dụng mô hình có sẵn (Pretrained GloVe)
 
 * Dùng model: `glove-wiki-gigaword-50`
 * Lấy vector của `"king"`
@@ -61,7 +61,7 @@ Most similar: ['prince', 'monarch', 'queen', 'ruler', 'throne']
 
 ---
 
-### ✅ Task 2: Nhúng văn bản
+###  Task 2: Nhúng văn bản
 
 Hàm `embed_document()` tách câu thành token và tính trung bình vector các từ.
 
@@ -74,7 +74,7 @@ Output: vector 50 chiều
 
 ---
 
-### ✅ Task 3: Huấn luyện Word2Vec
+###  Task 3: Huấn luyện Word2Vec
 
 Huấn luyện mô hình Word2Vec từ dữ liệu nhỏ (`en_ewt-ud-train.txt`).
 Cấu hình:
@@ -98,7 +98,7 @@ Model được lưu tại: `results/word2vec_ewt.model`.
 
 ---
 
-### ⚠️ Task 4: Huấn luyện với Spark
+###  Task 4: Huấn luyện với Spark
 
 * Cấu hình Spark thành công, nhưng **không chạy được** trên máy cá nhân.
 * Lỗi xuất phát từ:
@@ -140,11 +140,11 @@ Chưa thực hiện do ưu tiên phần huấn luyện.
 ## VI. Kết luận
 
 * Đã hoàn thành các phần:
-  ✅ Pretrained model (GloVe)
-  ✅ Document embedding
-  ✅ Word2Vec training
-  ⚠️ Spark training (lỗi môi trường)
-  ⏸ Visualization chưa thực hiện 
+   Pretrained model (GloVe)
+   Document embedding
+   Word2Vec training
+   Spark training (lỗi môi trường)
+   
 
 **Tổng tiến độ:** ~80% lab hoàn thành, logic đúng, code chạy ổn định.
 Người thực hiện hiểu rõ cách sử dụng, huấn luyện và so sánh Word Embeddings.
