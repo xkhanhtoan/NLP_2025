@@ -1,4 +1,4 @@
-# 🧠 Báo cáo Lab 17 – Xây dựng Spark NLP Pipeline
+# Báo cáo Lab 17 – Xây dựng Spark NLP Pipeline
 
 ## 1. Tổng quan và Mục tiêu
 
@@ -111,7 +111,7 @@ Trích xuất từ log `lab17_metrics_word2vec_lr.log`:
 | Test Accuracy | **85.80%** |
 | Thời gian huấn luyện | 30.88s |
 
-✅ **Word2Vec cho kết quả tốt hơn TF-IDF**, nhưng tốn nhiều tài nguyên hơn.
+**Word2Vec cho kết quả tốt hơn TF-IDF**, nhưng tốn nhiều tài nguyên hơn.
 
 ---
 
