@@ -1,0 +1,29 @@
+================================================================================
+=== EXERCISE 3 & 4: Word2Vec + Logistic Regression ===
+================================================================================
+
+--- Performance Metrics ---
+Pipeline fitting duration: 30.88 seconds
+Data transformation duration: 0.80 seconds
+Actual vocabulary size (after preprocessing): 41571 unique terms
+
+--- Word2Vec Configuration ---
+Vector size: 100 dimensions
+Min word count: 2
+Max iterations: 10
+
+--- Logistic Regression Configuration ---
+Max iterations: 20
+Regularization parameter: 0.01
+
+--- Model Performance ---
+Training Accuracy: 82.10%
+Test Accuracy: 85.80%
+
+--- Dataset Split ---
+Training set size: 838
+Test set size: 162
+
+Metrics file generated at: D:\Study\NLP\Lab2\.\log\lab17_metrics_word2vec_lr.log
+
+For detailed stage-level metrics, view the Spark UI at http://localhost:4040 during execution.
