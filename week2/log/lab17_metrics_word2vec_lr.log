@@ -2,7 +2,7 @@
 === EXERCISE 3 & 4: Word2Vec + Logistic Regression ===
 ================================================================================
 
---- Performance Metrics ---
+--- Performance Metrics --- 
 Pipeline fitting duration: 30.88 seconds
 Data transformation duration: 0.80 seconds
 Actual vocabulary size (after preprocessing): 41571 unique terms
