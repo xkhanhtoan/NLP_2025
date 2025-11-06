@@ -1,4 +1,4 @@
---- Performance Metrics ---
+--- Performance Metrics --- 
 Pipeline fitting duration: 3.29 seconds
 Data transformation duration: 1.71 seconds
 Actual vocabulary size (after preprocessing): 31355 unique terms
