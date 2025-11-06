@@ -83,8 +83,8 @@ val normalizer = new Normalizer()
 
 Chạy trực tiếp với **sbt**:
 ```bash
-sbt "runMain com.quangviet.spark.Lab17_NLPPipeline"
-sbt "runMain com.quangviet.spark.Lab17_NLPPipeline_Word2Vec_lr"
+sbt "runMain com.xkhanhtoan.spark.Lab17_NLPPipeline"
+sbt "runMain com.xkhanhtoan.spark.Lab17_NLPPipeline_Word2Vec_lr"
 ```
 
 Kết quả được sinh ra trong thư mục:
