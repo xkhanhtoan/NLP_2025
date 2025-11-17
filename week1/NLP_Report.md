@@ -1,4 +1,4 @@
-# 🧾 BÁO CÁO BÀI TẬP VỀ NHÀ -- XỬ LÝ NGÔN NGỮ TỰ NHIÊN (NLP)
+#  BÁO CÁO BÀI TẬP VỀ NHÀ -- XỬ LÝ NGÔN NGỮ TỰ NHIÊN (NLP)
 
 ## I. Giới thiệu chung
 
