@@ -1,5 +1,4 @@
 # Báo cáo Lab 17 – Xây dựng Spark NLP Pipeline
-
 ## 1. Tổng quan và Mục tiêu
 
 Bài Lab này nhằm giúp sinh viên làm quen với việc xây dựng **Spark ML Pipeline** để xử lý ngôn ngữ tự nhiên (NLP).  
