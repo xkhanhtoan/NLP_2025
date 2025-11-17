@@ -1,0 +1,133 @@
+    precision    recall  f1-score   support
+
+             alarm_query       0.15      0.21      0.17        19
+            alarm_remove       0.00      0.00      0.00        11
+               alarm_set       0.18      0.89      0.30        19
+       audio_volume_down       0.00      0.00      0.00         8
+       audio_volume_mute       0.00      0.00      0.00        15
+         audio_volume_up       0.20      0.08      0.11        13
+          calendar_query       0.00      0.00      0.00        19
+         calendar_remove       0.22      0.37      0.27        19
+            calendar_set       0.00      0.00      0.00        19
+          cooking_recipe       0.00      0.00      0.00        19
+        datetime_convert       0.00      0.00      0.00         8
+          datetime_query       0.16      0.53      0.24        19
+        email_addcontact       0.00      0.00      0.00         8
+             email_query       0.17      0.11      0.13        19
+      email_querycontact       0.00      0.00      0.00        19
+         email_sendemail       0.14      0.84      0.24        19
+          general_affirm       0.00      0.00      0.00        19
+     general_commandstop       0.24      0.32      0.27        19
+         general_confirm       0.26      1.00      0.42        19
+        general_dontcare       0.12      0.84      0.21        19
+         general_explain       0.00      0.00      0.00        19
+            general_joke       0.00      0.00      0.00        12
+          general_negate       0.00      0.00      0.00        19
+          general_praise       0.30      0.32      0.31        19
+          general_quirky       0.00      0.00      0.00        19
+          general_repeat       0.00      0.00      0.00        19
+            iot_cleaning       0.00      0.00      0.00        16
+              iot_coffee       0.13      0.58      0.21        19
+     iot_hue_lightchange       0.50      0.21      0.30        19
+        iot_hue_lightdim       0.00      0.00      0.00        12
+        iot_hue_lightoff       0.18      1.00      0.31        19
+         iot_hue_lighton       0.00      0.00      0.00         3
+         iot_hue_lightup       0.00      0.00      0.00        14
+            iot_wemo_off       0.00      0.00      0.00         9
+             iot_wemo_on       0.00      0.00      0.00         7
+       lists_createoradd       0.35      0.37      0.36        19
+             lists_query       0.06      0.11      0.08        19
+            lists_remove       0.14      0.42      0.21        19
+          music_likeness       0.00      0.00      0.00        18
+             music_query       0.00      0.00      0.00        19
+          music_settings       0.00      0.00      0.00         7
+              news_query       0.22      0.11      0.14        19
+          play_audiobook       0.00      0.00      0.00        19
+               play_game       0.00      0.00      0.00        19
+              play_music       0.00      0.00      0.00        19
+           play_podcasts       0.14      0.05      0.08        19
+              play_radio       0.00      0.00      0.00        19
+             qa_currency       0.12      0.42      0.18        19
+           qa_definition       0.00      0.00      0.00        19
+              qa_factoid       0.00      0.00      0.00        19
+                qa_maths       0.00      0.00      0.00        14
+                qa_stock       0.00      0.00      0.00        19
+   recommendation_events       0.31      0.21      0.25        19
+recommendation_locations       0.00      0.00      0.00        19
+   recommendation_movies       0.00      0.00      0.00        10
+             social_post       0.00      0.00      0.00        19
+            social_query       0.00      0.00      0.00        18
+          takeaway_order       0.00      0.00      0.00        19
+          takeaway_query       0.00      0.00      0.00        19
+         transport_query       0.00      0.00      0.00        19
+          transport_taxi       0.00      0.00      0.00        18
+        transport_ticket       0.00      0.00      0.00        19
+       transport_traffic       0.00      0.00      0.00        19
+           weather_query       0.00      0.00      0.00        19
+
+                accuracy                           0.16      1076
+               macro avg       0.07      0.14      0.07      1076
+            weighted avg       0.07      0.16      0.08      1076
+
+
+===== CONFUSION MATRIX =====
+
+[[ 4  0  3 ...  0  0  0]
+ [ 0  0  6 ...  0  0  0]
+ [ 0  0 17 ...  0  0  0]
+ ...
+ [ 0  0  5 ...  0  0  0]
+ [ 0  0  0 ...  0  0  0]
+ [ 1  0  1 ...  0  0  0]]
+
+===== MISCLASSIFIED EXAMPLES (max 10) =====
+
+------
+Text      : tell me time of alarm you set
+True      : alarm_query
+Predicted : iot_coffee
+
+------
+Text      : list all of my alarms
+True      : alarm_query
+Predicted : lists_remove
+
+------
+Text      : alarm settings
+True      : alarm_query
+Predicted : alarm_set
+
+------
+Text      : please see see for me the alarms that you have set sunday morning
+True      : alarm_query
+Predicted : general_dontcare
+
+------
+Text      : tell me when the next alarms are for
+True      : alarm_query
+Predicted : lists_query
+
+------
+Text      : please tell me what alarms are on
+True      : alarm_query
+Predicted : lists_query
+
+------
+Text      : please list all my alarms
+True      : alarm_query
+Predicted : lists_remove
+
+------
+Text      : tell me about my alarms
+True      : alarm_query
+Predicted : lists_query
+
+------
+Text      : do i have any alarms set
+True      : alarm_query
+Predicted : general_dontcare
+
+------
+Text      : is there an alarm at four am
+True      : alarm_query
+Predicted : alarm_set
