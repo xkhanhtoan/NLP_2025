@@ -1,5 +1,6 @@
 # Report: Thực hành PyTorch cơ bản (Lab 5)
- 
+
+
 ## Mục tiêu bài tập
 Bài tập này giúp sinh viên:
 - Làm quen với **PyTorch**, thư viện học sâu phổ biến.   
@@ -88,5 +89,6 @@ Dữ liệu đầu vào là các chỉ số từ, đi qua các tầng theo thứ
 Trong phạm vi bài lab, mô hình được dùng để kiểm tra **quá trình truyền dữ liệu (forward)** và **kích thước tensor** qua từng lớp, chưa thực hiện huấn luyện với hàm mất mát.  
 
 Mô hình này là bước khởi đầu giúp người học nắm được cách tổ chức, định nghĩa và vận hành một mạng nơ-ron trong PyTorch, tạo nền tảng cho việc xây dựng các mô hình ngôn ngữ phức tạp hơn như LSTM hoặc Transformer.
+
 
 
