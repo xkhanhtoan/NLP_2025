@@ -110,7 +110,7 @@ Model được lưu tại: `results/word2vec_ewt.model`.
 
 ---
 
-### ⏸ Task 5: Trực quan hóa
+### Task 5: Trực quan hóa
 
 Chưa thực hiện do ưu tiên phần huấn luyện.
 
