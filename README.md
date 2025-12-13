@@ -10,9 +10,9 @@ Mục tiêu của repository:
 - Phân tách rõ **code – report – notebook**
 
 ---
-
 ## Cấu trúc tổng quan
----
+
+.
 ├── week1/
 ├── week2/
 ├── week5/
@@ -20,7 +20,7 @@ Mục tiêu của repository:
 ├── week7/
 ├── week8/
 ├── week9/
-├── week12/
+└── week12/
 
 ---
 
