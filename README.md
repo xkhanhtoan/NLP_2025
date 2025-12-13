@@ -22,7 +22,6 @@ Mục tiêu của repository:
 ├── week9/
 └── week12/
 
----
 
 ## Nội dung theo từng tuần
 
