@@ -1,5 +1,4 @@
 # Lab 5 (Final): Xây dựng mô hình RNN cho bài toán Nhận dạng Thực thể Tên (NER)
-
 ## 1. Mục tiêu
 Trong bài thực hành này, chúng tôi xây dựng một mô hình dựa trên Mạng Nơ-ron Hồi quy (RNN/LSTM) cho bài toán Nhận dạng Thực thể Tên (Named Entity Recognition – NER).
 Sau khi hoàn thành bài lab, mô hình có khả năng:
