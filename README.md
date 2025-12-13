@@ -11,7 +11,7 @@ Mục tiêu của repository:
 
 ---
 ## Cấu trúc tổng quan
-
+```
 .
 ├── week1/
 ├── week2/
@@ -22,7 +22,7 @@ Mục tiêu của repository:
 ├── week9/
 └── week12/
 
-
+```
 ## Nội dung theo từng tuần
 
 ### Week 1 – LAB 1
