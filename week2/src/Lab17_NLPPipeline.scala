@@ -1,4 +1,4 @@
-package com.quangviet.spark
+package com.ktoan.spark
 import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.ml.Pipeline
