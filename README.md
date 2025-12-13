@@ -12,7 +12,7 @@ Mục tiêu của repository:
 ---
 
 ## Cấu trúc tổng quan
-.
+---
 ├── week1/
 ├── week2/
 ├── week5/
