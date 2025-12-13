@@ -7,20 +7,21 @@ Bài lab bao gồm các task: cài đặt mô hình, kiểm thử, chạy ví d�
 ---
 
 ## 2. Cấu trúc thư mục
-src/
- └─ models/
-     ├─ my_vectorizer.py
-     ├─ my_vectorizer_v2.py
-     ├─ text_classification.py
-     ├─ text_classification_nb.py
-     └─ text_classification_nn.py
-
-test/
- ├─ lab5_test.py
- ├─ lab5_improvement_test.py
- └─ lab5_spark_sentiment_analysis.py
-
----
+week6/
+├── src/
+│   └── models/
+│       ├── my_vectorizer.py
+│       ├── my_vectorizer_v2.py
+│       ├── text_classification.py
+│       ├── text_classification_nb.py
+│       └── text_classification_nn.py
+│
+├── test/
+│   ├── lab5_test.py
+│   ├── lab5_improvement_test.py
+│   └── lab5_spark_sentiment_analysis.py
+│
+└── README.md
 
 ## 3. Task 1 – Cài đặt TextClassifier
 Một hệ thống phân loại văn bản cơ bản được cài đặt bằng Scikit-learn:
