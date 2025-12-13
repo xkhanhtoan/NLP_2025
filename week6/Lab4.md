@@ -7,6 +7,7 @@ Bài lab bao gồm các task: cài đặt mô hình, kiểm thử, chạy ví d�
 ---
 
 ## 2. Cấu trúc thư mục
+```text
 week6/
 ├── src/
 │   └── models/
@@ -22,6 +23,7 @@ week6/
 │   └── lab5_spark_sentiment_analysis.py
 │
 └── README.md
+```
 
 ## 3. Task 1 – Cài đặt TextClassifier
 Một hệ thống phân loại văn bản cơ bản được cài đặt bằng Scikit-learn:
